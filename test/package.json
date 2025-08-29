@@ -1,0 +1,13 @@
+{
+  "name": "token-ring-monitor-test",
+  "version": "1.0.0",
+  "description": "Test utilities for token ring network monitoring",
+  "main": "protocol-test.js",
+  "scripts": {
+    "test": "node protocol-test.js",
+    "test-multiple": "node multi-node-test.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
